@@ -32,12 +32,10 @@ export default class SideBox extends React.Component<{ side: 'left' | 'right', h
 	
 	render() {
         const { image, title, subtitle} = this.state;
-        if(!title) return '';
 		return (
 			<div className={`sidebox ${this.props.side} ${this.props.hide ? 'hide':''}`}>
                 <div className="title_container">
                     <div className="title">{title}</div>
-                    <div className="subtitle">{subtitle}</div>
                 </div>
                 <div className="image_container">
                     {image ? <img src={image} id={`image_left`} alt={'Left'}/>:''}
