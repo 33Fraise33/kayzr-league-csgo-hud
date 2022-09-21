@@ -1,7 +1,7 @@
 {
-    "name":"Lexogrine HUD",
+    "name":"Kayzr League HUD",
     "version":"2.5.0",
-    "author":"Lexogrine",
+    "author":"33Fraise33",
     "legacy": false,
     "radar": true,
     "killfeed": true,
